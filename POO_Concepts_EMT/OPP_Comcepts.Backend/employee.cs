@@ -29,7 +29,7 @@ namespace OPP_Comcepts.Backend
         public override string ToString()
         {
             return $"{Id}\t{Firtsname} {Lastname}\n\t" +
-                   $"Value to pay: {GetValueToPay():C2}";
+                   $"Value to pay.....: {GetValueToPay(),20:C2}";
         }
         public abstract decimal GetValueToPay();
        
