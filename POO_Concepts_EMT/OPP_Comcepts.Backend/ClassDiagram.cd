@@ -38,5 +38,12 @@
       <FileName>Hourlyemployee.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="OPP_Comcepts.Backend.CommisionEmployee">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAAAICAAEAAAABAAAAAAAAAAIAAgAAAAAAAA=</HashCode>
+      <FileName>CommisionEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

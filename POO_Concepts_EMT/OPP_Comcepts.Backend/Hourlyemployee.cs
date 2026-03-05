@@ -36,8 +36,8 @@ public class Hourlyemployee : Employee
 
     override public string ToString()
     {
-        return base.ToString() + $"\n\tHourly Value.....: {HourlyValue,20:C2}" +
-                                 $"\n\tWorking Hours....: {WorkingHours,20:N2}";
+        return base.ToString() + $"\n\tHourly Value......: {HourlyValue,20:C2}" +
+                                 $"\n\tWorking Hours.....: {WorkingHours,20:N2}";
     }
 
     private decimal ValidateHourlyValue(decimal hourlyValue)
