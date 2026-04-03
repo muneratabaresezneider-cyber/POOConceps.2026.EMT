@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OPP_Comcepts.Backend
 {
-    public abstract class Employee
+    public abstract class Employee : IPay
     {
         // Constructors
         public Employee(int id, string firtsname, string lastname, bool isActive, Date bornDate, Date hireDate)
